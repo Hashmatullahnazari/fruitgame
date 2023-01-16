@@ -1,25 +1,9 @@
 #game {
-
-  text-align: center;
+text-align: center;
+margin: auto;
+width: 50%;
+border: 3px solid green;
+padding: 10px;
 }
 
-#game h1 {
-  grid-area: header;
-}
 
-#game #word {
-  grid-area: word;
-}
-
-#game #input {
-  grid-area: input;
-  text-align: center;
-}
-
-#game button {
-  grid-area: input;
-}
-
-#game #result {
-  grid-area: result;
-}
